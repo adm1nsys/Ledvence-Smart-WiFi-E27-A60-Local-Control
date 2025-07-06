@@ -19,14 +19,6 @@ python -m tinytuya scan
 
 <hr>
 
-<h1>Tested on</h1>
-Ledvance Smart+ WiFi E27 A60<br>
-Main Module: V1.5.32<br>
-MCU Module: V1.5.32<br>
-RN bundle version: V1.3.0<br><br>
-
-<hr>
-
 <h1>Usage</h1>
 LedvanceE27A60.py DEV_ID IP LOCAL_KEY [options]<br><br>
 
@@ -66,7 +58,7 @@ options:
   --status             Print current device status
   --tail [SEC]         Continuously print status every SEC (default: 1)
   --brightness 1-100   print utility version
-  --shade 2300K-9000K  Color temperature in Kelvin (DPS 23)
+  --shade 2700K-6500K  Color temperature in Kelvin (DPS 23)
   --rgb R,G,B          RGB color (0-255 each)
   --saturation 1-100   Saturation for RGB (default: 100)
   --raw HHHHSSSSVVVV   12-digit hex HSV string (DPS 24)
@@ -74,3 +66,12 @@ options:
   --version            print utility version
 adminpro@Admins-MacBook-Pro ~ % 
 ```
+<br><br>
+<h1>Tested on</h1>
+Ledvance Smart+ WiFi E27 A60<br>
+Main Module: V1.5.32<br>
+MCU Module: V1.5.32<br>
+RN bundle version: V1.3.0<br><br>
+<h2>SMART+ WIFI CLASSIC 60 9 W/2700…6500 K E27 (MY)</h2>
+<img src="https://www.ledvance.com/00_Free_To_Use/11536672/image-thumb__11536672__ProductGalleryImage/asset-11536672_SMARTWIFIA60_9W_230V_RGBWFR_E27_4X3LEDV.jpg" alt="bulb photo">
+<a href="https://www.ledvance.com/en-int/home-lighting/products/smart-home/smart-lamps/smart-wifi/smart-classic-heatsink-lamps-with-wifi-technology/classic-bulb-shape-with-wifi-technology-c6443?productId=83025">https://www.ledvance.com/en-int/home-lighting/products/smart-home/smart-lamps/smart-wifi/smart-classic-heatsink-lamps-with-wifi-technology/classic-bulb-shape-with-wifi-technology-c6443?productId=83025</a>
