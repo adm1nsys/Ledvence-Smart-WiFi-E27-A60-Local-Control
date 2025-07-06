@@ -1,4 +1,5 @@
 # Ledvence-Smart-WiFi-E27-A60-Local-Control
+I developed this script to easy control LEDVANCE E27 A60 WiFi Bulb using local network. It use tinytuya protocol 3.5
 
 <h1>Dependencies</h1><br>
 pip 25.1.1, python 3.11 (or newer)<br>
